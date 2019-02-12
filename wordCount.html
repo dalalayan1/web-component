@@ -1,0 +1,17 @@
+<template id="template-word-count">
+    <style>
+      .title {
+        font-weight: bolder;
+      }
+      .red-word {
+        color: red;
+      }
+    </style>
+    <div class="title">
+      <slot name="title">Title: Web Component</slot>
+    </div>
+    <div class="red-word">This is a web component</div>
+    <script>
+      console.log('template loaded');
+    </script>
+</template>
